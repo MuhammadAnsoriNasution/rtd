@@ -14,3 +14,6 @@ theme:
     previous: 80 # p
     search: 83 # s
   nav_style: dark
+site_name: Muhammad ANsori Nasution
+site_url: https://muhammadansorinasution-rtd.readthedocs.io/en/latest/
+repo_url: https://github.com/MuhammadAnsoriNasution/rtd
