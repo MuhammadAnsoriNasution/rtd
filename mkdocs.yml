@@ -1,0 +1,16 @@
+nav:
+  - Home: "index.md"
+  - About: "about.md"
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+  shortcuts:
+    help: 191 # ?
+    next: 78 # n
+    previous: 80 # p
+    search: 83 # s
+  nav_style: dark
