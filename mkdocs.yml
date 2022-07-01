@@ -1,19 +1,24 @@
-nav:
-  - Home: "index.md"
-  - About: "about.md"
-
-theme:
-  name: mkdocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
-  shortcuts:
-    help: 191 # ?
-    next: 78 # n
-    previous: 80 # p
-    search: 83 # s
-  nav_style: dark
 site_name: Muhammad ANsori Nasution
 site_url: https://muhammadansorinasution-rtd.readthedocs.io/en/latest/
 repo_url: https://github.com/MuhammadAnsoriNasution/rtd
+nav:
+  - "index.md"
+  - "User Guide":
+      - "user-guide/getting-started.md"
+      - "user-guide/configuration-options.md"
+  - "User Guide2":
+      - "User Guide21":
+          - "user-guide/getting-started2.md"
+          - "user-guide/configuration-options2.md"
+      - "User Guide22":
+          - "user-guide/getting-started3.md"
+          - "user-guide/configuration-options3.md"
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - python
+markdown_extensions:
+  - toc:
+      permalink: True
+      separator: "_"
