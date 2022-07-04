@@ -3,16 +3,17 @@ site_url: https://muhammadansorinasution-rtd.readthedocs.io/en/latest/
 repo_url: https://github.com/MuhammadAnsoriNasution/rtd
 nav:
   - "index.md"
-  - "User Guide":
-      - "user-guide/getting-started.md"
-      - "user-guide/configuration-options.md"
-  - "User Guide2":
-      - "User Guide21":
-          - "user-guide/getting-started2.md"
-          - "user-guide/configuration-options2.md"
-      - "User Guide22":
-          - "user-guide/getting-started3.md"
-          - "user-guide/configuration-options3.md"
+  - Whatsapp: "whatsapp.md"
+  # - "User Guide":
+  #     - "user-guide/getting-started.md"
+  #     - "user-guide/configuration-options.md"
+  # - "User Guide2":
+  #     - "User Guide21":
+  #         - "user-guide/getting-started2.md"
+  #         - "user-guide/configuration-options2.md"
+  #     - "User Guide22":
+  #         - "user-guide/getting-started3.md"
+  #         - "user-guide/configuration-options3.md"
 theme:
   name: readthedocs
   highlightjs: true
