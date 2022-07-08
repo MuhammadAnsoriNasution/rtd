@@ -5,21 +5,23 @@ nav:
   - Home: "index.md"
   - "Yii2":
       - "yii2/send-message-whatsapp-web-js-service.md"
-  # - "React":
-  #     - "User Guide21":
+  - "React":
+      - "Index": "react/index.md"
+      #     - "user-guide/getting-started2.md"
+      #     - "user-guide/configuration-options2.md"
+      # - "User Guide22":
+      #     - "user-guide/getting-started3.md"
+      #     - "user-guide/configuration-options3.md"
+  - "React Native":
+      - "Index": "reactnative/index.md"
+
   #         - "user-guide/getting-started2.md"
   #         - "user-guide/configuration-options2.md"
   #     - "User Guide22":
   #         - "user-guide/getting-started3.md"
   #         - "user-guide/configuration-options3.md"
-  # - "React Native":
-  #     - "User Guide21":
-  #         - "user-guide/getting-started2.md"
-  #         - "user-guide/configuration-options2.md"
-  #     - "User Guide22":
-  #         - "user-guide/getting-started3.md"
-  #         - "user-guide/configuration-options3.md"
-  # - "Express Js":
+  - "Express Js":
+      - "Index": "express/index.md"
   #     - "User Guide21":
   #         - "user-guide/getting-started2.md"
   #         - "user-guide/configuration-options2.md"
@@ -35,7 +37,8 @@ theme:
   highlightjs: true
   hljs_languages:
     - python
-markdown_extensions:
-  - toc:
-      permalink: True
-      separator: "_"
+# markdown_extensions:
+#   - toc:
+#       permalink: "#"
+#       baselevel: 2
+#       separator: "_"
