@@ -1,19 +1,35 @@
-site_name: Muhammad ANsori Nasution
+site_name: Codinglab.id
 site_url: https://muhammadansorinasution-rtd.readthedocs.io/en/latest/
 repo_url: https://github.com/MuhammadAnsoriNasution/rtd
 nav:
-  - "index.md"
-  - Whatsapp: "whatsapp.md"
-  # - "User Guide":
-  #     - "user-guide/getting-started.md"
-  #     - "user-guide/configuration-options.md"
-  # - "User Guide2":
+  - Home: "index.md"
+  - "Yii2":
+      - "yii2/send-message-whatsapp-web-js-service.md"
+  # - "React":
   #     - "User Guide21":
   #         - "user-guide/getting-started2.md"
   #         - "user-guide/configuration-options2.md"
   #     - "User Guide22":
   #         - "user-guide/getting-started3.md"
   #         - "user-guide/configuration-options3.md"
+  # - "React Native":
+  #     - "User Guide21":
+  #         - "user-guide/getting-started2.md"
+  #         - "user-guide/configuration-options2.md"
+  #     - "User Guide22":
+  #         - "user-guide/getting-started3.md"
+  #         - "user-guide/configuration-options3.md"
+  # - "Express Js":
+  #     - "User Guide21":
+  #         - "user-guide/getting-started2.md"
+  #         - "user-guide/configuration-options2.md"
+  #     - "User Guide22":
+  #         - "user-guide/getting-started3.md"
+  #         - "user-guide/configuration-options3.md"
+  - "Services":
+      - "Whatsapp":
+          - "Whatsapp Web Js": "services/whatsapp/whatsapp-web-js.md"
+
 theme:
   name: readthedocs
   highlightjs: true
