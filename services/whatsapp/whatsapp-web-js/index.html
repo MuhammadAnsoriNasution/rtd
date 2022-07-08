@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://muhammadansorinasution-rtd.readthedocs.io/en/latest/services/whatsapp/whatsapp-web-js/" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>Whatsapp Web Js - Muhammad ANsori Nasution</title>
+    <title>Whatsapp Web Js - Codinglab.id</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -32,7 +32,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="../../.." class="icon icon-home"> Muhammad ANsori Nasution
+          <a href="../../.." class="icon icon-home"> Codinglab.id
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -56,6 +56,8 @@
     <ul class="current">
                 <li class="toctree-l2 current"><a class="reference internal current" href="./">Whatsapp Web Js</a>
     <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#preinstall">Preinstall</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#installation">Installation</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a>
@@ -90,7 +92,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../..">Muhammad ANsori Nasution</a>
+          <a href="../../..">Codinglab.id</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -112,6 +114,8 @@
               
                 <h1 id="whatsapp_web_js">Whatsapp Web js<a class="headerlink" href="#whatsapp_web_js" title="Permanent link">&para;</a></h1>
 <p>Whatsapp web js ialah suatu library yang memungkinkan kita untuk membuat sebuah bot Whatsapp. Whatsapp web ini berjalan menggunakan <a href="https://pptr.dev/">puppeter</a> yang memungkinkan kita merunning browser lewat syntax dan kita bisa mengontrolnya lewat syntax, defaultnya menggunakan chromium. hingga dokumentasi ini ditulis library ini running menggunakan node js.</p>
+<h2 id="preinstall">Preinstall<a class="headerlink" href="#preinstall" title="Permanent link">&para;</a></h2>
+<p>pastikan node js sudah terinstall pada komputer yang di gunakan, jika belum silahkan download pada <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> pilih sesuai os yang di gunakan, download dan lakukan installasi</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
 <p>langkah pertama silhkan buat folder whatsapp, masuk ke dalam folder whatsapp kemudian jalankan perintah <code>npm init</code> enter sampai proses selesai. sekarang kita install dependencies nya dengan menjalankan perintah <code>npm install express express-validator nodemon qrcode socket.io whatsapp-web.js</code></p>
 <h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
@@ -351,10 +355,12 @@ server.listen(port, function () {
 </tbody>
 </table>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/pedroslopez/whatsapp-web.js/">https://github.com/pedroslopez/whatsapp-web.js/</a></p>
-<p><a href="https://github.com/ngekoding/whatsapp-api-tutorial">https://github.com/ngekoding/whatsapp-api-tutorial</a></p>
-<p><a href="https://socket.io/">https://socket.io/</a></p>
-<p><a href="https://expressjs.com/">https://expressjs.com/</a></p>
+<ul>
+<li><a href="https://github.com/pedroslopez/whatsapp-web.js/">https://github.com/pedroslopez/whatsapp-web.js/</a></li>
+<li><a href="https://github.com/ngekoding/whatsapp-api-tutorial">https://github.com/ngekoding/whatsapp-api-tutorial</a></li>
+<li><a href="https://socket.io/">https://socket.io/</a></li>
+<li><a href="https://expressjs.com/">https://expressjs.com/</a></li>
+</ul>
 <h2 id="deployment_vps">Deployment VPS<a class="headerlink" href="#deployment_vps" title="Permanent link">&para;</a></h2>
 <p>untuk melakukan deploy node js silahkan install <a href="https://pm2.keymetrics.io/">https://pm2.keymetrics.io/</a> pada pvs yang ada. setelah pm2 berhasil di install clone source yang telah di buat tadi pada github terkait dan masuk ke dalam folder hasil clone tadi. jalankan perintah <code>pm2 start app.js --name==wa --watch</code> dan aplikasipun siap di gunakan pada port 8000 sesuai dengan yang kita buat pada app.js dan pastikan port tersebut sudah di buka pada firewall</p>
               
