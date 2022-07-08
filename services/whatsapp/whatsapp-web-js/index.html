@@ -50,6 +50,21 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../../yii2/send-message-whatsapp-web-js-service/">Send message whatsapp web js service</a>
                   </li>
               </ul>
+              <p class="caption"><span class="caption-text">React</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../react/">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">React Native</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../reactnative/">Home</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Express Js</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../express/">Home</a>
+                  </li>
+              </ul>
               <p class="caption"><span class="caption-text">Services</span></p>
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">Whatsapp</a>
@@ -70,15 +85,15 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#penggunaan">Penggunaan</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#api_reference">API Reference</a>
+    <li class="toctree-l3"><a class="reference internal" href="#api-reference">API Reference</a>
         <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#send_message">Send Message</a>
+    <li class="toctree-l4"><a class="reference internal" href="#send-message">Send Message</a>
     </li>
         </ul>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#reference">Reference</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#deployment_vps">Deployment VPS</a>
+    <li class="toctree-l3"><a class="reference internal" href="#deployment-vps">Deployment VPS</a>
     </li>
     </ul>
                 </li>
@@ -112,14 +127,14 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="whatsapp_web_js">Whatsapp Web js<a class="headerlink" href="#whatsapp_web_js" title="Permanent link">&para;</a></h1>
+                <h1 id="whatsapp-web-js">Whatsapp Web js</h1>
 <p>Whatsapp web js ialah suatu library yang memungkinkan kita untuk membuat sebuah bot Whatsapp. Whatsapp web ini berjalan menggunakan <a href="https://pptr.dev/">puppeter</a> yang memungkinkan kita merunning browser lewat syntax dan kita bisa mengontrolnya lewat syntax, defaultnya menggunakan chromium. hingga dokumentasi ini ditulis library ini running menggunakan node js.</p>
-<h2 id="preinstall">Preinstall<a class="headerlink" href="#preinstall" title="Permanent link">&para;</a></h2>
+<h2 id="preinstall">Preinstall</h2>
 <p>pastikan node js sudah terinstall pada komputer yang di gunakan, jika belum silahkan download pada <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a> pilih sesuai os yang di gunakan, download dan lakukan installasi</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<h2 id="installation">Installation</h2>
 <p>langkah pertama silhkan buat folder whatsapp, masuk ke dalam folder whatsapp kemudian jalankan perintah <code>npm init</code> enter sampai proses selesai. sekarang kita install dependencies nya dengan menjalankan perintah <code>npm install express express-validator nodemon qrcode socket.io whatsapp-web.js</code></p>
-<h2 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
-<h4 id="appjs">app.js<a class="headerlink" href="#appjs" title="Permanent link">&para;</a></h4>
+<h2 id="syntax">Syntax</h2>
+<h4 id="appjs">app.js</h4>
 <pre><code class="language-javascript">const { Client, LocalAuth } = require(&quot;whatsapp-web.js&quot;);
 const express = require(&quot;express&quot;);
 const { body, validationResult } = require(&quot;express-validator&quot;);
@@ -259,7 +274,7 @@ server.listen(port, function () {
   console.log(&quot;App running on *: &quot; + port);
 });
 </code></pre>
-<h4 id="indexhtml">index.html<a class="headerlink" href="#indexhtml" title="Permanent link">&para;</a></h4>
+<h4 id="indexhtml">index.html</h4>
 <pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -312,11 +327,11 @@ server.listen(port, function () {
   &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-<h2 id="penggunaan">Penggunaan<a class="headerlink" href="#penggunaan" title="Permanent link">&para;</a></h2>
+<h2 id="penggunaan">Penggunaan</h2>
 <p>untuk menjalankannya silahkan jalankan perintah <code>nodemon app.js</code> kemudian buka <code>http://localhost:8000</code> pada browser</p>
 <p>tunggu beberapa saat hingga barcode muncul, setelah barcode muncul scan barcode tersebut dengan akun Whatsapp, mausk dari tautkan perangkat. ketika scan berhasil silahkan tunggu hingga status ready, dan Api pun siap di gunakan</p>
-<h2 id="api_reference">API Reference<a class="headerlink" href="#api_reference" title="Permanent link">&para;</a></h2>
-<h4 id="send_message">Send Message<a class="headerlink" href="#send_message" title="Permanent link">&para;</a></h4>
+<h2 id="api-reference">API Reference</h2>
+<h4 id="send-message">Send Message</h4>
 <pre><code class="language-http">  POST /send-message
 </code></pre>
 <table>
@@ -354,20 +369,20 @@ server.listen(port, function () {
 </tr>
 </tbody>
 </table>
-<h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
+<h2 id="reference">Reference</h2>
 <ul>
 <li><a href="https://github.com/pedroslopez/whatsapp-web.js/">https://github.com/pedroslopez/whatsapp-web.js/</a></li>
 <li><a href="https://github.com/ngekoding/whatsapp-api-tutorial">https://github.com/ngekoding/whatsapp-api-tutorial</a></li>
 <li><a href="https://socket.io/">https://socket.io/</a></li>
 <li><a href="https://expressjs.com/">https://expressjs.com/</a></li>
 </ul>
-<h2 id="deployment_vps">Deployment VPS<a class="headerlink" href="#deployment_vps" title="Permanent link">&para;</a></h2>
+<h2 id="deployment-vps">Deployment VPS</h2>
 <p>untuk melakukan deploy node js silahkan install <a href="https://pm2.keymetrics.io/">https://pm2.keymetrics.io/</a> pada pvs yang ada. setelah pm2 berhasil di install clone source yang telah di buat tadi pada github terkait dan masuk ke dalam folder hasil clone tadi. jalankan perintah <code>pm2 start app.js --name==wa --watch</code> dan aplikasipun siap di gunakan pada port 8000 sesuai dengan yang kita buat pada app.js dan pastikan port tersebut sudah di buka pada firewall</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../../yii2/send-message-whatsapp-web-js-service/" class="btn btn-neutral float-left" title="Send message whatsapp web js service"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../../express/" class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -394,7 +409,7 @@ server.listen(port, function () {
         </span>
     
     
-      <span><a href="../../../yii2/send-message-whatsapp-web-js-service/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../../../express/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>
