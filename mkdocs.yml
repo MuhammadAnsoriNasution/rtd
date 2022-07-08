@@ -3,6 +3,9 @@ site_url: https://muhammadansorinasution-rtd.readthedocs.io/en/latest/
 repo_url: https://github.com/MuhammadAnsoriNasution/rtd
 nav:
   - Home: "index.md"
+  - "Services":
+    - "Whatsapp":
+        - "Whatsapp Web Js": "services/whatsapp/whatsapp-web-js.md"
   - "Yii2":
       - "Send Message Whatsapp Web Service": "yii2/send-message-whatsapp-web-js-service.md"
       - "Oauth2": "yii2/oauth2.md"
@@ -29,9 +32,7 @@ nav:
   #     - "User Guide22":
   #         - "user-guide/getting-started3.md"
   #         - "user-guide/configuration-options3.md"
-  - "Services":
-      - "Whatsapp":
-          - "Whatsapp Web Js": "services/whatsapp/whatsapp-web-js.md"
+
 
 theme:
   name: readthedocs
