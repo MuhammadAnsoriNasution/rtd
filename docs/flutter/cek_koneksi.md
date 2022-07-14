@@ -29,5 +29,5 @@ MaterialApp(
 
 ## Reference
 
-- https://pub.dev/packages/connectivity_plus/example
-- https://stackoverflow.com/questions/68030497/check-connectivity-in-flutter-and-change-state-according-connection-status
+- [https://pub.dev/packages/connectivity_plus/example](https://pub.dev/packages/connectivity_plus/example)
+- [https://stackoverflow.com/questions/68030497/check-connectivity-in-flutter-and-change-state-according-connection-status](https://stackoverflow.com/questions/68030497/check-connectivity-in-flutter-and-change-state-according-connection-status)
