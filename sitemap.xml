@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/express/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/flutter/cek_koneksi/</loc>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/react/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/reactnative/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/services/whatsapp/whatsapp-web-js/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/yii2/oauth2/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://muhammadansorinasution-rtd.readthedocs.io/en/latest/yii2/send-message-whatsapp-web-js-service/</loc>
-         <lastmod>2022-07-08</lastmod>
+         <lastmod>2022-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
