@@ -17,3 +17,8 @@ contoh penerapan pada model
         ];
     }
 ```
+
+## Reference
+
+- [https://www.yiiframework.com/doc/guide/2.0/en/security-best-practices](https://www.yiiframework.com/doc/guide/2.0/en/security-best-practices)
+- [https://stackoverflow.com/questions/30124559/yii2-how-to-validate-xss-cross-site-scripting-in-form-model-input](https://stackoverflow.com/questions/30124559/yii2-how-to-validate-xss-cross-site-scripting-in-form-model-input)
