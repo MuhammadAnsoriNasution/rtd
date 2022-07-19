@@ -116,7 +116,7 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="avoiding-xss">Avoiding XSS</h1>
-<p>XSS atau skrip lintas situs terjadi ketika keluaran tidak lolos dengan benar saat mengeluarkan HTML ke browser. Misalnya, jika pengguna dapat memasukkan namanya dan alih-alih Alexander ia memasukkan <script>alert('Hello!');</script>, setiap halaman yang menampilkan nama pengguna tanpa keluar darinya akan menjalankan JavaScript alert('Hello!') ; mengakibatkan kotak peringatan muncul di browser. Bergantung pada situs web alih-alih peringatan yang tidak bersalah, skrip semacam itu dapat mengirim pesan menggunakan nama Anda atau bahkan melakukan transaksi bank.</p>
+<p>XSS atau skrip lintas situs terjadi ketika keluaran tidak lolos dengan benar saat mengeluarkan HTML ke browser. Misalnya, jika pengguna dapat memasukkan namanya dan alih-alih Alexander ia memasukkan <code>&lt;script&gt;alert('Hello!');&lt;/script&gt;</code>, setiap halaman yang menampilkan nama pengguna tanpa keluar darinya akan menjalankan JavaScript alert('Hello!') ; mengakibatkan kotak peringatan muncul di browser. Bergantung pada situs web alih-alih peringatan yang tidak bersalah, skrip semacam itu dapat mengirim pesan menggunakan nama Anda atau bahkan melakukan transaksi bank.</p>
 <h2 id="usageexamples">Usage/Examples</h2>
 <p>Untuk melakukan filter kita bisa memanfaatkan <code>\yii\helpers\HtmlPurifier::process($description)</code> yang tertera pada dokumentasi yii2.
 contoh penerapan pada model</p>
