@@ -1,6 +1,6 @@
 # Avoiding XSS
 
-XSS atau skrip lintas situs terjadi ketika keluaran tidak lolos dengan benar saat mengeluarkan HTML ke browser. Misalnya, jika pengguna dapat memasukkan namanya dan alih-alih Alexander ia memasukkan <script>alert('Hello!');</script>, setiap halaman yang menampilkan nama pengguna tanpa keluar darinya akan menjalankan JavaScript alert('Hello!') ; mengakibatkan kotak peringatan muncul di browser. Bergantung pada situs web alih-alih peringatan yang tidak bersalah, skrip semacam itu dapat mengirim pesan menggunakan nama Anda atau bahkan melakukan transaksi bank.
+XSS atau skrip lintas situs terjadi ketika keluaran tidak lolos dengan benar saat mengeluarkan HTML ke browser. Misalnya, jika pengguna dapat memasukkan namanya dan alih-alih Alexander ia memasukkan `<script>alert('Hello!');</script>`, setiap halaman yang menampilkan nama pengguna tanpa keluar darinya akan menjalankan JavaScript alert('Hello!') ; mengakibatkan kotak peringatan muncul di browser. Bergantung pada situs web alih-alih peringatan yang tidak bersalah, skrip semacam itu dapat mengirim pesan menggunakan nama Anda atau bahkan melakukan transaksi bank.
 
 ## Usage/Examples
 
