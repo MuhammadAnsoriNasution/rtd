@@ -70,6 +70,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#usageexamples">Usage/Examples</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#generate-access-token-with-username">Generate Access token with username</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#reference">Reference</a>
     </li>
     </ul>
@@ -268,6 +270,13 @@ class HaloController extends \yii\rest\Controller
 
 </code></pre>
 <p>silahkan request token lalu copykan access_token yang di dapat dan akses endpoint /halo dengan memasukkan authorization nya dari token yang tadi</p>
+<h2 id="generate-access-token-with-username">Generate Access token with username</h2>
+<p>langkah pertama manfaatkan method login user, kemudian generate token melalui method <code>createAccessToken</code> pada class server filsh. pada kasus yang digunakan untuk login with google, facebook, karna kita tidak tau password yang digunakan setiap user. maka kita generate token hanya dengan user login menggunakan username tanpa validasi password</p>
+<p>contoh penggunaan</p>
+<pre><code class="language-php">Yii::$app-&gt;user-&gt;login($user, $this-&gt;rememberMe ? 3600 * 24 * 30 : 0);
+$module = Yii::$app-&gt;getModule('oauth2');
+$acces_token = $module-&gt;getServer()-&gt;createAccessToken('testclient', Yii::$app-&gt;getUser()-&gt;getId());
+</code></pre>
 <h2 id="reference">Reference</h2>
 <ul>
 <li><a href="https://github.com/filsh/yii2-oauth2-server">https://github.com/filsh/yii2-oauth2-server</a></li>
