@@ -10,6 +10,8 @@ nav:
       - "Send Message Whatsapp Web Service": "yii2/send-message-whatsapp-web-js-service.md"
       - "Oauth2": "yii2/oauth2.md"
       - "Avoiding XSS": "yii2/avoiding-xss.md"
+      - "Upload File use temporary php": "yii2/upload-file-use temporary php.md"
+
   - "React":
       - "Index": "react/index.md"
   - "React Native":
