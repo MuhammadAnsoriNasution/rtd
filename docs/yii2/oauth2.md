@@ -128,6 +128,18 @@ class HaloController extends \yii\rest\Controller
 
 silahkan request token lalu copykan access_token yang di dapat dan akses endpoint /halo dengan memasukkan authorization nya dari token yang tadi
 
+## Generate Access token with username
+
+langkah pertama manfaatkan method login user, kemudian generate token melalui method `createAccessToken` pada class server filsh. pada kasus yang digunakan untuk login with google, facebook, karna kita tidak tau password yang digunakan setiap user. maka kita generate token hanya dengan user login menggunakan username tanpa validasi password
+
+contoh penggunaan
+
+```php
+Yii::$app->user->login($user, $this->rememberMe ? 3600 * 24 * 30 : 0);
+$module = Yii::$app->getModule('oauth2');
+$acces_token = $module->getServer()->createAccessToken('testclient', Yii::$app->getUser()->getId());
+```
+
 ## Reference
 
 - [https://github.com/filsh/yii2-oauth2-server](https://github.com/filsh/yii2-oauth2-server)
