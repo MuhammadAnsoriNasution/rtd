@@ -6,6 +6,9 @@ nav:
   - "Services":
       - "Whatsapp":
           - "Whatsapp Web Js": "services/whatsapp/whatsapp-web-js.md"
+      - "Login With":
+          - "Facebook": "services/login-with/facebook.md"
+          - "Google": "services/login-with/google.md"
   - "Yii2":
       - "Send Message Whatsapp Web Service": "yii2/send-message-whatsapp-web-js-service.md"
       - "Oauth2": "yii2/oauth2.md"
