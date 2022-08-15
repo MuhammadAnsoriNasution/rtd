@@ -10,6 +10,7 @@ nav:
           - "Facebook": "services/login-with/facebook.md"
           - "Google": "services/login-with/google.md"
   - "Yii2":
+      - "Installation": "yii2/installation.md"
       - "Send Message Whatsapp Web Service": "yii2/send-message-whatsapp-web-js-service.md"
       - "Oauth2": "yii2/oauth2.md"
       - "Avoiding XSS": "yii2/avoiding-xss.md"
